@@ -1,0 +1,428 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,wght@0,500;1,600&family=Poppins:wght@200;400&family=Roboto:wght@100;300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(68, 66, 66);
+    font-family: 'Pathway Extreme', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 40px;
+
+}
+
+.navbar ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 12px;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 10px;
+
+    font-weight: 500;
+}
+
+.maincontainer {
+    background-color: aqua;
+}
+
+.firstpage-image {
+    background-image: url(./girl\ image.jpg);
+    
+    height: 115vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainnavbar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: sticky;
+    color: white;
+}
+
+.logo {}
+
+.logo img {
+
+    height: 38px;
+    margin-left: 50px;
+}
+
+.primary-link {
+
+    list-style: none;
+    width: 50%;
+    margin-right: 10px;
+
+
+
+}
+
+.primary-link ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+
+.icon {
+    display: flex;
+
+    margin-right: 130px;
+    width: 8%;
+}
+
+.icon ul {
+    display: flex;
+    color: white;
+
+}
+
+.icon li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 5px;
+}
+
+.icon p {
+
+    margin-left: 60px;
+    margin-top: 4px;
+}
+
+.first-page-text {
+
+    margin-top: 140px;
+    margin-left: 140px;
+    color: white;
+}
+
+.first-page-text p {
+    margin-top: 20px;
+}
+
+.first-page-text button {
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+.second-page {
+    color: white;
+    height: 140vh;
+  
+
+
+}
+
+.second-img {
+    background-image: url(./second\ full\ image.jpg);
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+
+
+}
+.second-text{
+
+   display: grid;
+   place-items: center;
+   margin-top: 40px;
+}
+.second-text p{
+    margin-top: 15px;
+}
+.second-text button{
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+}
+.third-section{
+
+
+}
+.third-section-img{
+background-image: url(./part\ 3\ boy\ fuul.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+display: grid;
+place-items: center;
+color: white;
+
+}
+.third-section-img h1{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-left: 100px;
+    text-transform: inherit
+}
+.third-section-img p{
+margin-top: 15px;
+font-size: 18px;
+}
+.third-section-img button{
+    margin-top: 15px;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    margin-left: 170px;
+}
+.fourth-page{
+
+height: 100vh;
+padding: 20px;
+}
+.forthpage-image{
+    padding: 20px;
+background-image: url(./part4.webp);
+background-position: center;
+background-size: cover;
+height: 72vh;
+width: 85%;
+margin-left: 70px;
+
+display: grid;
+place-items: center;
+color: white;
+}
+.forthpage-image h1{
+    font-size: 45px;
+}
+.forthpage-image p{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.forthpage-image button{
+    height: 40px;
+    margin-top: 15px;
+    width: 120px;
+    color:black;
+    background-color:white;
+    margin-left: 130px;
+
+}
+.fourth-page-text{
+   
+    display: flex;
+    padding: 40px;
+}
+.fourth-page-text span{
+    margin-top: 20px;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+margin-left: 30px;
+}
+.fourth-page-text input{
+    height: 40px;
+    width: 30%;
+}
+
+.fourth-page-text button{
+    height: 40px;
+    width: 100px;
+}
+
+/* ----footer-section-------------- */
+.footer-section{
+    display: flex;
+    background-color:black;
+}
+.footer-text{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    color: white;
+}
+.footer-text h3{
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 80px;
+}
+.footer-text li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.footer-text li:hover{
+     text-decoration: underline;
+    cursor: pointer;
+ 
+    color: gainsboro;
+  
+   
+}
+.ul-list{
+    padding-bottom: 25px;
+   
+}
+.ul-list h3{
+    cursor: pointer;
+}
+.account-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.account-text h3{
+    font-size: 25px;
+    font-weight: 500;
+     letter-spacing: -1px;
+     cursor: pointer;
+
+}
+.account-text h4{
+    font-size: 15px;
+    color: rgb(165, 162, 162);
+    text-transform: uppercase;
+   
+    padding-left: 50px;
+    cursor: pointer;
+    line-height: 20px;
+}
+#ACCOUNT{
+    font-weight: 400;
+    color: rgb(165, 162, 162);
+    cursor: pointer;
+}
+.account-text button{
+    margin-top: 10px;
+    height: 45px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 220px;
+    font-size: 15px;
+    margin-left: 45px;
+   
+    background-color: white;
+
+}
+.edit-text{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 80px;
+    
+    
+    
+
+}
+.edit-text h3{
+    padding-left: 30px;
+    line-height: 35px;
+}
+.edit-text li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   color: gainsboro;
+   }
+.edit-text li{
+    list-style: none;
+    line-height: 20px;
+    color: gray;
+    font-size: 13px;
+    padding-left: 30px;
+    
+}
+.payment-section{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+.payment-section h1{
+    color: white;
+    font-size: 31px;
+    /* letter-spacing: .1rem; */
+    font-weight: bold;
+    
+    
+}
+.payment-section h4{
+    color:gray;
+    font-size: 14px;
+    font-weight: 500;
+    width: 20%;
+    text-align: center;
+}
+.pay-img-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 40%;
+   /* height: 60px; */
+    
+    
+}
+.pay-img-section img{
+width: 6%;
+}
+/* ----end-section---------- */
+.end-section{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+   
+}
+.end-section h1{
+    font-size: 15px;
+    width: 28%; 
+    text-align: center;
+    font-weight: 700;
+}
+.end-section img{
+    height: 50px;
+    padding-right: 150px;
+}
+.end-section-icons i{
+    padding: 10px;
+    font-size: 40px;
+}
+
